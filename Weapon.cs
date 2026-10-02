@@ -1,12 +1,18 @@
 
-class Weapond : Item
+class Weapon : Item
 {
     public int minDamage;
     public int maxDamage;
-    
-    public static int Attack(int minDamage, int maxDamage)
+    public Weapon()
     {
-        int damage = Random.Shared.Next(minDamage, maxDamage);
-        return damage;
+            name = "Sword";
+            Weight = 10;
+            minDamage = 5;
+            maxDamage = 25;
+    }
+    
+    public int Attack()
+    {
+        return Random.Shared.Next(minDamage, maxDamage);
     }
 }

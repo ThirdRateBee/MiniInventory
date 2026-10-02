@@ -1,5 +1,6 @@
-﻿Character Test = new Character();
-Inventory InTest = new Inventory();
+﻿
+Character Test = new();
+
 
 
 while(true)
@@ -9,5 +10,6 @@ while(true)
 
     if (choice == "i")
     {
+        
     }
 }

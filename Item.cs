@@ -1,6 +1,6 @@
 
 class Item
 {
-    public string Name;
+    public string name;
     public float Weight;
 }
