@@ -1,7 +1,7 @@
 
 class Inventory
 {
-    List<Item> Items; 
+    private List<Item> Items = new List<Item>();
     public Weapon mainWeapon = new Weapon();
     public Consumable Apple = new Consumable();
     public Inventory()

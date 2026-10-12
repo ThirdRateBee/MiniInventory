@@ -1,7 +1,7 @@
 
 class Consumable : Item
 {
-    public int usesMax;
+    public int usesMax = 5;
     public int usesCurrent;
     public Consumable()
     {

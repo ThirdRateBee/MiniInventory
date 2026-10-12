@@ -1,7 +1,5 @@
 ﻿
-Character Test = new();
-
-
+Character b = new();
 
 while(true)
 {
@@ -10,6 +8,6 @@ while(true)
 
     if (choice == "i")
     {
-        
+        b.Backpack.Display();
     }
 }
