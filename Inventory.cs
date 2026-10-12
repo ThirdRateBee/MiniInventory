@@ -1,7 +1,7 @@
 
 class Inventory
 {
-    private List<Item> Items = new List<Item>();
+    public List<Item> Items = new List<Item>();
     public Weapon mainWeapon = new Weapon();
     public Consumable Apple = new Consumable();
     public Inventory()
@@ -11,9 +11,9 @@ class Inventory
     }
     public void Display()
     {
-        foreach (Item item in Items)
+        foreach (Item e in Items)
         {
-            Console.WriteLine(item.name);
+            Console.WriteLine(e.name);
         }
     }
 }
